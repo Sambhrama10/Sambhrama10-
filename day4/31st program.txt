@@ -1,0 +1,21 @@
+//write a c program to print the following pattern 
+#include<stdio.h>
+int main()
+{
+    int marks[3];
+    printf("physics: \n");
+    scanf("%d",&marks[0]);
+    
+    printf("chem: \n");
+    scanf("%d",&marks[1]);
+   
+    printf("maths: \n");
+    scanf("%d",&marks[2]);
+    
+    printf("physics=%d,",marks[0]);
+    printf("chem=%d,",marks[1]);
+    printf("maths=%d,",marks[2]);
+    return 0;
+}
+
+

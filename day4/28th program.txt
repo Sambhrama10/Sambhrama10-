@@ -1,0 +1,14 @@
+//write a c program to print the following pattern 
+#include<stdio.h>
+int main()
+{
+    int num=465;
+    //declaring pointer 
+    int *pointer=&num;
+    printf("num=%d \n",num);
+    //accessing the pointer address
+    printf("num=%p \n",num);
+    printf("pointer=%p",pointer);
+}
+
+
