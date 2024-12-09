@@ -1,0 +1,24 @@
+//write a program for the pattern
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    int ch='a';
+    printf("enter the number:");
+    scanf("%d",&num);
+    // Loop through rows
+    for (int i=1;i<=num;i++) 
+    {
+        for (int j=1; j<=num;j++) 
+        {
+            printf("%c ",ch); 
+            ch++;
+            if(ch<=26)
+            ch='a';
+        }
+        printf("\n"); 
+    }
+
+    return 0;
+}
